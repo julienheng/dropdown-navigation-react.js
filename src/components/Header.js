@@ -1,13 +1,14 @@
 import React, { useState } from "react";
-import logo from "./src/images/logo.svg";
-import chevronDown from "./images/icon-arrow-down.svg";
-import chevronUp from "./images/icon-arrow-up.svg";
-import menuOpen from "./images/icon-menu.svg";
-import closeMenu from "./images/icon-close-menu.svg";
-import todolist from "./images/icon-todo.svg";
-import calendar from "./images/icon-calendar.svg";
-import reminders from "./images/icon-reminders.svg";
-import planning from "./images/icon-planning.svg";
+// import logo from "./src/images/logo.svg";
+import logo from "../images/logo.svg";
+import chevronDown from "../images/icon-arrow-down.svg";
+import chevronUp from "../images/icon-arrow-up.svg";
+import menuOpen from "../images/icon-menu.svg";
+import closeMenu from "../images/icon-close-menu.svg";
+import todolist from "../images/icon-todo.svg";
+import calendar from "../images/icon-calendar.svg";
+import reminders from "../images/icon-reminders.svg";
+import planning from "../images/icon-planning.svg";
 
 function Header() {
   const [openFeatures, setOpenFeatures] = useState(false);
